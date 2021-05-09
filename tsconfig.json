@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": ["src"],
+  "exclude": ["**/*.test.ts"]
+}

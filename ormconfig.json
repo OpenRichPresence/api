@@ -1,0 +1,10 @@
+{
+  "type": "mongodb",
+  "url": "",
+  "useUnifiedTopology": true,
+  "synchronize": false,
+  "logging": false,
+  "entities": [
+    "src/types/*.ts"
+  ]
+}
